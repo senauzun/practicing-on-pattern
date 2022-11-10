@@ -7,7 +7,7 @@
 
 import Foundation
 
-/*
+
  print("Please enter row number:" ,terminator: "")
  
  if let num = readLine() {
@@ -25,7 +25,7 @@ import Foundation
     }
  }
  
- // OUTPUT
+ /* OUTPUT
  
  Please enter row number:4
  Row number:  4
@@ -38,7 +38,7 @@ import Foundation
 
 
 
-/*var row:Int = 5
+var row:Int = 5
 
 for i in 1...row{
    for _ in stride(from: row, to: i, by: 1){
@@ -50,7 +50,7 @@ for i in 1...row{
    print(" ")
 }
 
-//OUTPUT
+/*OUTPUT
 *
 **
 ***
@@ -59,20 +59,20 @@ for i in 1...row{
 Program ended with exit code: 0*/
 
 
-/*
-var row:Int = 5
 
-for i in stride(from: row, to: 0, by: -1){
-    for _ in stride(from: row, to: 0, by: -1){
+var row2:Int = 5
+
+for i in stride(from: row2, to: 0, by: -1){
+    for _ in stride(from: row2, to: 0, by: -1){
         print("", terminator:"")
     }
-    for _ in stride(from: row, to: row-i, by: -1){
+    for _ in stride(from: row2, to: row2-i, by: -1){
         print("*",terminator: " ")
     }
     print("")
 }
 
-//OUTPUT
+/*OUTPUT
 * * * * *
 * * * *
 * * *
