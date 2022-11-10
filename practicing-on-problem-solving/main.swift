@@ -7,5 +7,99 @@
 
 import Foundation
 
-print("Hello, World!")
+/*
+ print("Please enter row number:" ,terminator: "")
+ 
+ if let num = readLine() {
+ print("Row number:  \(num)")
+ 
+ for i in 0...Int(num)!{
+    for _ in 0..<Int(num)!-i{
+        print(" " , terminator: " ")
+    }
+    for _ in 0...i {
+        print("*" , terminator: " ")
+ 
+    }
+    print("")
+    }
+ }
+ 
+ // OUTPUT
+ 
+ Please enter row number:4
+ Row number:  4
+         *
+       * *
+     * * *
+   * * * *
+ * * * * *
+ Program ended with exit code: 0 */
+
+
+
+/*var row:Int = 5
+
+for i in 1...row{
+   for _ in stride(from: row, to: i, by: 1){
+      print(" ",terminator : " ")
+   }
+      for _ in 1...i{
+      print("*", terminator : " ")
+   }
+   print(" ")
+}
+
+//OUTPUT
+*
+**
+***
+****
+*****
+Program ended with exit code: 0*/
+
+
+/*
+var row:Int = 5
+
+for i in stride(from: row, to: 0, by: -1){
+    for _ in stride(from: row, to: 0, by: -1){
+        print("", terminator:"")
+    }
+    for _ in stride(from: row, to: row-i, by: -1){
+        print("*",terminator: " ")
+    }
+    print("")
+}
+
+//OUTPUT
+* * * * *
+* * * *
+* * *
+* *
+*
+Program ended with exit code: 0 */
+
+
+var num:Int=5
+for i in stride(from: num, to: 0, by: -1){
+for _ in 0..<num-i{
+print(" " , terminator: " ")
+}
+for _ in 1...i {
+print("*" , terminator: " ")
+
+}
+    //print("num: " ,num ,"i: ", i , separator: " ")
+   
+print("")
+}
+
+/*OUTPUT
+* * * * *
+  * * * *
+    * * *
+      * *
+        *
+Program ended with exit code: 0*/
 
