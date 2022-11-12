@@ -103,3 +103,115 @@ print("")
         *
 Program ended with exit code: 0*/
 
+
+
+//Pyramid
+for i in 1...5 {
+    for _  in stride(from: 5, to: i, by: -1){
+        print(terminator:" ")
+    }
+    for _ in 1...i{
+        print("*" ,terminator: " ")
+    }
+    print(" ")
+}
+
+/*OUTPUT
+    *
+   * *
+  * * *
+ * * * *
+* * * * *
+ */
+ 
+ //Inverted Pyramid
+
+var rowNum:Int=5
+for i in 0...rowNum {
+    for _ in 0...i{
+        print(terminator:" ")
+    }
+    for _ in stride(from:rowNum-i, to: 0, by: -1){
+        print("*",terminator: " ")
+    }
+    print(" ")
+    
+}
+
+/*OUTPUT
+* * * * *
+ * * * *
+  * * *
+   * *
+    *   */
+      
+ 
+
+//DIAMOND
+
+for i in 0...5 {
+    for _  in stride(from: 5, to: i, by: -1){
+        print(terminator:" ")
+    }
+    for _ in 0...i{
+        print("*" ,terminator: " ")
+    }
+    print("")
+}
+for i in 0...5 {
+    for _ in 0...i{
+        print(terminator:" ")
+    }
+    for _ in stride(from:5-i, to: 0, by: -1){
+        print("*",terminator: " ")
+    }
+    print("")
+}
+
+/* OUTPUT
+        *
+       * *
+      * * *
+     * * * *
+    * * * * *
+   * * * * * *
+    * * * * *
+     * * * *
+      * * *
+       * *
+        *
+ 
+Program ended with exit code: 0 */
+
+for i in 0...5 {
+    for _ in stride(from: 5, to: i, by: -1){
+        print("" ,terminator:"")
+    }
+    for _ in stride(from: 0, to: i, by: 1){
+        print("*" , terminator: " ")
+    }
+    print("")
+
+}
+for i in 0...5{
+    for _ in stride(from: 5, to: i, by: -1){
+        print("*" ,terminator: " ")
+    }
+    for _ in stride(from: i, to: 5, by: 1){
+        print("" , terminator: "")
+    }
+    print(" ")
+}
+
+/*OUTPUT :
+*
+* *
+* * *
+* * * *
+* * * * *
+* * * * *
+* * * *
+* * *
+* *
+*
+ */
