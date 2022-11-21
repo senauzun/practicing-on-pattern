@@ -8,7 +8,7 @@
 import Foundation
 
 
- print("Please enter row number:" ,terminator: "")
+print("Please enter row number:" ,terminator: "")
  
  if let num = readLine() {
  print("Row number:  \(num)")
@@ -214,4 +214,4 @@ for i in 0...5{
 * * *
 * *
 *
- */
+*/

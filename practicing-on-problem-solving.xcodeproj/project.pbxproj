@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B88E64F8292B5F00000FFD0B /* Two-Sum.swift in Sources */ = {isa = PBXBuildFile; fileRef = B88E64F7292B5EFF000FFD0B /* Two-Sum.swift */; };
+		B88E6503292B6680000FFD0B /* Palindrome-Number.swift in Sources */ = {isa = PBXBuildFile; fileRef = B88E6502292B667F000FFD0B /* Palindrome-Number.swift */; };
 		B8965257291C3D9500950060 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8965256291C3D9500950060 /* main.swift */; };
 /* End PBXBuildFile section */
 
@@ -23,6 +25,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		B88E64F7292B5EFF000FFD0B /* Two-Sum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Two-Sum.swift"; sourceTree = "<group>"; };
+		B88E6502292B667F000FFD0B /* Palindrome-Number.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Palindrome-Number.swift"; sourceTree = "<group>"; };
 		B8965253291C3D9500950060 /* practicing-on-problem-solving */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "practicing-on-problem-solving"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B8965256291C3D9500950060 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -38,9 +42,27 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B88E6501292B6669000FFD0B /* Easy */ = {
+			isa = PBXGroup;
+			children = (
+				B88E64F7292B5EFF000FFD0B /* Two-Sum.swift */,
+				B88E6502292B667F000FFD0B /* Palindrome-Number.swift */,
+			);
+			path = Easy;
+			sourceTree = "<group>";
+		};
+		B88E6504292B6824000FFD0B /* Problem Solution */ = {
+			isa = PBXGroup;
+			children = (
+				B88E6501292B6669000FFD0B /* Easy */,
+			);
+			path = "Problem Solution";
+			sourceTree = "<group>";
+		};
 		B896524A291C3D9500950060 = {
 			isa = PBXGroup;
 			children = (
+				B88E6504292B6824000FFD0B /* Problem Solution */,
 				B8965255291C3D9500950060 /* practicing-on-problem-solving */,
 				B8965254291C3D9500950060 /* Products */,
 			);
@@ -120,6 +142,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B88E64F8292B5F00000FFD0B /* Two-Sum.swift in Sources */,
+				B88E6503292B6680000FFD0B /* Palindrome-Number.swift in Sources */,
 				B8965257291C3D9500950060 /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
