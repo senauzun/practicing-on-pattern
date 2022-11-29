@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B81BED942935E4D6009A41BC /* Plus one.swift in Sources */ = {isa = PBXBuildFile; fileRef = B81BED932935E4D6009A41BC /* Plus one.swift */; };
+		B81BED962935E50F009A41BC /* remove element.swift in Sources */ = {isa = PBXBuildFile; fileRef = B81BED952935E50F009A41BC /* remove element.swift */; };
 		B88E64F8292B5F00000FFD0B /* Two-Sum.swift in Sources */ = {isa = PBXBuildFile; fileRef = B88E64F7292B5EFF000FFD0B /* Two-Sum.swift */; };
 		B88E6503292B6680000FFD0B /* Palindrome-Number.swift in Sources */ = {isa = PBXBuildFile; fileRef = B88E6502292B667F000FFD0B /* Palindrome-Number.swift */; };
 		B88E6506292B7F11000FFD0B /* Roman-to-Int.swift in Sources */ = {isa = PBXBuildFile; fileRef = B88E6505292B7F11000FFD0B /* Roman-to-Int.swift */; };
@@ -27,6 +29,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		B81BED932935E4D6009A41BC /* Plus one.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Plus one.swift"; sourceTree = "<group>"; };
+		B81BED952935E50F009A41BC /* remove element.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "remove element.swift"; sourceTree = "<group>"; };
 		B88E64F7292B5EFF000FFD0B /* Two-Sum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Two-Sum.swift"; sourceTree = "<group>"; };
 		B88E6502292B667F000FFD0B /* Palindrome-Number.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Palindrome-Number.swift"; sourceTree = "<group>"; };
 		B88E6505292B7F11000FFD0B /* Roman-to-Int.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Roman-to-Int.swift"; sourceTree = "<group>"; };
@@ -53,6 +57,8 @@
 				B88E6502292B667F000FFD0B /* Palindrome-Number.swift */,
 				B88E6505292B7F11000FFD0B /* Roman-to-Int.swift */,
 				B88E6507292CBBEA000FFD0B /* longest-common-prefix.swift */,
+				B81BED932935E4D6009A41BC /* Plus one.swift */,
+				B81BED952935E50F009A41BC /* remove element.swift */,
 			);
 			path = Easy;
 			sourceTree = "<group>";
@@ -152,7 +158,9 @@
 				B88E6508292CBBEA000FFD0B /* longest-common-prefix.swift in Sources */,
 				B88E6503292B6680000FFD0B /* Palindrome-Number.swift in Sources */,
 				B88E6506292B7F11000FFD0B /* Roman-to-Int.swift in Sources */,
+				B81BED962935E50F009A41BC /* remove element.swift in Sources */,
 				B8965257291C3D9500950060 /* main.swift in Sources */,
+				B81BED942935E4D6009A41BC /* Plus one.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
