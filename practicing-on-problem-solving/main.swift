@@ -215,23 +215,6 @@ for i in 0...5{
 * * *
 * *
 *
-*/ */
-
-
-/*func longestCommonPrefix(_ strs: [String]) -> String {
-    
-    let strs :[String] =  ["flower","flight","fire"]
-    
-    for i in strs {
-        print(i)
-    }
-    
-    
-    
-    return strs.description
-    
-}*
-
-
+*/
 
 
