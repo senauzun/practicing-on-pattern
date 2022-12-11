@@ -59,6 +59,7 @@
 		B88E6501292B6669000FFD0B /* Easy */ = {
 			isa = PBXGroup;
 			children = (
+				B89CBC322946568A00D2283A /* is-subsequence.swift */,
 				B88E64F7292B5EFF000FFD0B /* Two-Sum.swift */,
 				B88E6502292B667F000FFD0B /* Palindrome-Number.swift */,
 				B88E6505292B7F11000FFD0B /* Roman-to-Int.swift */,
@@ -75,7 +76,6 @@
 			isa = PBXGroup;
 			children = (
 				B88E6501292B6669000FFD0B /* Easy */,
-				B89CBC322946568A00D2283A /* is-subsequence.swift */,
 			);
 			path = "Problem Solution";
 			sourceTree = "<group>";
