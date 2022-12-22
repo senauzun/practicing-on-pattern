@@ -17,6 +17,8 @@
 		B8965257291C3D9500950060 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8965256291C3D9500950060 /* main.swift */; };
 		B89CBC312946470F00D2283A /* climb-stairs.swift in Sources */ = {isa = PBXBuildFile; fileRef = B89CBC302946470F00D2283A /* climb-stairs.swift */; };
 		B89CBC332946568A00D2283A /* is-subsequence.swift in Sources */ = {isa = PBXBuildFile; fileRef = B89CBC322946568A00D2283A /* is-subsequence.swift */; };
+		B8D8F7AF2954D056005FDE01 /* remove-duplicate-from-sorted-array.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8D8F7AE2954D056005FDE01 /* remove-duplicate-from-sorted-array.swift */; };
+		B8D8F7B12954D195005FDE01 /* sqrt.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8D8F7B02954D195005FDE01 /* sqrt.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -43,6 +45,8 @@
 		B8965256291C3D9500950060 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		B89CBC302946470F00D2283A /* climb-stairs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "climb-stairs.swift"; sourceTree = "<group>"; };
 		B89CBC322946568A00D2283A /* is-subsequence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "is-subsequence.swift"; sourceTree = "<group>"; };
+		B8D8F7AE2954D056005FDE01 /* remove-duplicate-from-sorted-array.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "remove-duplicate-from-sorted-array.swift"; sourceTree = "<group>"; };
+		B8D8F7B02954D195005FDE01 /* sqrt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sqrt.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,6 +72,8 @@
 				B81BED952935E50F009A41BC /* remove element.swift */,
 				B85461062939306000258E2D /* length-of-the-last-word.swift */,
 				B89CBC302946470F00D2283A /* climb-stairs.swift */,
+				B8D8F7AE2954D056005FDE01 /* remove-duplicate-from-sorted-array.swift */,
+				B8D8F7B02954D195005FDE01 /* sqrt.swift */,
 			);
 			path = Easy;
 			sourceTree = "<group>";
@@ -166,6 +172,7 @@
 				B88E64F8292B5F00000FFD0B /* Two-Sum.swift in Sources */,
 				B89CBC312946470F00D2283A /* climb-stairs.swift in Sources */,
 				B88E6508292CBBEA000FFD0B /* longest-common-prefix.swift in Sources */,
+				B8D8F7AF2954D056005FDE01 /* remove-duplicate-from-sorted-array.swift in Sources */,
 				B89CBC332946568A00D2283A /* is-subsequence.swift in Sources */,
 				B88E6503292B6680000FFD0B /* Palindrome-Number.swift in Sources */,
 				B88E6506292B7F11000FFD0B /* Roman-to-Int.swift in Sources */,
@@ -173,6 +180,7 @@
 				B81BED962935E50F009A41BC /* remove element.swift in Sources */,
 				B8965257291C3D9500950060 /* main.swift in Sources */,
 				B81BED942935E4D6009A41BC /* Plus one.swift in Sources */,
+				B8D8F7B12954D195005FDE01 /* sqrt.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
